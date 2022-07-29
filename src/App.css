@@ -1,0 +1,310 @@
+@font-face {
+  font-family: roboto;
+  src: url("./Fonts/RobotoCondensed-Bold.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: roboto !important;
+}
+.rounded15 {
+  border-radius: 15px;
+}
+.block {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.sidebar {
+  width: 15%;
+  height: 100vh;
+  display: flex;
+  padding: 0 15px;
+}
+.sidebar h6 {
+  color: #9ca2a7;
+}
+.sidebar a i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.Mobile h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #9ca2a7;
+}
+.Mobile i {
+  font-size: 25px;
+}
+.Mobile {
+  display: none;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  z-index: 15;
+  background: #fafafa;
+}
+.active {
+  background: #d5eaff;
+  color: #50a5ff;
+  border-radius: 8px;
+}
+.content {
+  width: 85%;
+  overflow-y: scroll;
+}
+.content::-webkit-scrollbar {
+  width: 0;
+}
+.Context {
+  margin-top: 80px;
+  background: #fafafa;
+}
+.header {
+  position: fixed;
+  z-index: 5;
+  width: 85%;
+  background: #fafafa;
+  padding: 25px 20px;
+  top: 0;
+  left: 15%;
+}
+.Primary {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background: #45a5ff;
+  color: white;
+  border-radius: 15px;
+}
+
+.antdSelect {
+  width: 200px;
+  border-radius: 15px !important;
+}
+
+.card {
+  height: 60vh;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.cardHeader {
+  background: #6caef3;
+}
+.cardBox {
+  width: 45%;
+  border-radius: 10px;
+  background: white;
+  color: black;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 5px 0 15px 0;
+}
+.cardFooterBox {
+  padding: 5px;
+  border-radius: 5px;
+  background: #dff2fc;
+}
+
+.OrdersBody {
+  padding-top: 30px;
+  overflow: scroll;
+}
+.ProductImg {
+  width: 50px;
+  height: 50px;
+}
+.cardBody {
+  height: 200px;
+  overflow-y: scroll;
+}
+.cardBody::-webkit-scrollbar {
+  width: 0;
+}
+.form {
+  width: 100%;
+  background: #f5f4f4;
+  overflow: hidden;
+}
+.form h5 {
+  margin-top: 15px;
+}
+.firstForm {
+  background: white;
+}
+.formShadow {
+  border-radius: 15px;
+  box-shadow: 0px 0px 34px 6px rgba(34, 60, 80, 0.16);
+  overflow-y: scroll;
+}
+.formShadow::-webkit-scrollbar {
+  width: 0;
+}
+.AvField {
+  height: 60px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.ChooseImg {
+  width: 100%;
+  border: 1px dashed #9ca2a7;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  min-height: 200px;
+}
+.Collecting {
+  width: 150px;
+  height: 120px;
+}
+.Btn {
+  width: 100%;
+  background: #4ba85e;
+  outline: none;
+  border: none;
+  color: white;
+  transition: 1s;
+}
+.Btn:hover {
+  background: #398649;
+}
+.cartBlock {
+  height: 100%;
+  overflow-y: scroll;
+}
+.cartBlock::-webkit-scrollbar {
+  height: 5px;
+}
+.cartBlock::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.cartBlock::-webkit-scrollbar-thumb {
+  background: #4d5357;
+  border-radius: 10px;
+}
+.total span {
+  font-size: 20px;
+}
+
+.table::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.table::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.table::-webkit-scrollbar-thumb {
+  background: #4d5357;
+  border-radius: 10px;
+}
+
+.cartInput {
+  width: 80px;
+  border: 1px solid gray;
+  height: 35px;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.load {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.emptyCart {
+  width: 40%;
+}
+.hShadow:hover {
+  box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.16);
+}
+.dashCard {
+  width: 22%;
+  background: white;
+  min-height: 110px;
+  padding: 15px 15px 0;
+}
+.iconBox {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.2);
+}
+.icon1 {
+  background-color: #edf6ff;
+  color: #3434ea;
+}
+.icon2 {
+  background-color: #d9d6ea;
+  color: #3a2fa8;
+}
+.icon3 {
+  background-color: #eeecf3;
+  color: #ca36fc;
+}
+.icon4 {
+  background-color: #ffecf2;
+  color: #ff3673;
+}
+.fCharts {
+  height: 60vh;
+}
+.sCharts {
+  height: 57vh;
+}
+.sLeftChart {
+  overflow: hidden;
+  height: 100%;
+  overflow-x: scroll;
+}
+.sRightChart {
+  overflow: hidden;
+}
+.sLeftChart::-webkit-scrollbar {
+  width: 0;
+}
+.loginPage {
+  height: 100vh;
+  background: url("./Pages/Login/wallpaper.png");
+  background-size: 100% 100%;
+}
+.loginPage button {
+  background: #0a6cb3;
+  color: white;
+}
+
+@media screen and (max-width: 758px) {
+  .header {
+    width: 100%;
+    left: 0;
+  }
+  .content {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .sidebar {
+    display: none;
+  }
+  .Mobile {
+    display: flex;
+  }
+  .dashCard {
+    width: 83%;
+  }
+  .sCharts {
+    margin-top: 61vh;
+    height: 115vh;
+  }
+  .sLeftChart {
+    height: 49%;
+  }
+  .sRightChart {
+    height: 49%;
+  }
+}
