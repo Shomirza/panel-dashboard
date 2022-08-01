@@ -137,9 +137,7 @@ function Orders() {
                           : item.productName}
                       </td>
                       <td>
-                        {item.description.length > 15
-                          ? `${item.description.substr(0, 15)}...`
-                          : item.description}
+                        {item.description}
                       </td>
                       <td>{new Date(item.createdAt).toLocaleDateString()}</td>
                       <td>{item.amount}</td>
